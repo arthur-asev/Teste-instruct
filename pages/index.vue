@@ -3,6 +3,8 @@
     <Logo />
     <!-- <Logo dark-background /> -->
     <h1 class="leads__title">Leads</h1>
+
+    <ListaDeUsuarios />
   </div>
 </template>
 
