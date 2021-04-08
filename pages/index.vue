@@ -50,32 +50,35 @@ export default {
 
 <style scoped="true">
 .lista-container {
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(rgb(34, 135, 213), #05d8c3);
+  margin: 0 auto;
+  width: 74%;
+  height: auto;
 }
 
 input {
   width: 50vw;
-  height: 30px;
+  height: 1.5rem;
   border-radius: 8px;
 }
 .espaco-bottom {
   margin-bottom: 1.5em;
 }
 label {
+  font-size: 0.8rem;
   margin-top: 1rem;
   color: white;
 }
 .filtro_pesquisa {
-  width: 50%;
-  margin: 0 auto;
+  margin-bottom: 2rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .filtro-container {
-  border-radius: 8px 8px 0px 0px;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 8px;
   background-color: rgb(34, 135, 213);
 }
 
